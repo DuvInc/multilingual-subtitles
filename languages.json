@@ -1,0 +1,206 @@
+{
+ "_note": "Subtitle languages, ordered by YouTube audience. The order is the data: `--top 20` is a slice of this list, not a second list to maintain. `tag` is what you pass to AI Glot and was checked against `aiglot languages`. `youtube` appears only when the code YouTube expects differs from the AI Glot tag.",
+ "languages": [
+  {
+   "tag": "es-419",
+   "label": "Spanish (Latin America)"
+  },
+  {
+   "tag": "hi",
+   "label": "Hindi"
+  },
+  {
+   "tag": "pt-BR",
+   "label": "Portuguese (Brazil)"
+  },
+  {
+   "tag": "ar",
+   "label": "Arabic"
+  },
+  {
+   "tag": "id",
+   "label": "Indonesian"
+  },
+  {
+   "tag": "fr",
+   "label": "French"
+  },
+  {
+   "tag": "ja",
+   "label": "Japanese"
+  },
+  {
+   "tag": "ru",
+   "label": "Russian"
+  },
+  {
+   "tag": "de",
+   "label": "German"
+  },
+  {
+   "tag": "ko",
+   "label": "Korean"
+  },
+  {
+   "tag": "it",
+   "label": "Italian"
+  },
+  {
+   "tag": "tr",
+   "label": "Turkish"
+  },
+  {
+   "tag": "vi",
+   "label": "Vietnamese"
+  },
+  {
+   "tag": "th",
+   "label": "Thai"
+  },
+  {
+   "tag": "pl",
+   "label": "Polish"
+  },
+  {
+   "tag": "nl",
+   "label": "Dutch"
+  },
+  {
+   "tag": "zh-Hans",
+   "label": "Chinese (Simplified)"
+  },
+  {
+   "tag": "zh-Hant",
+   "label": "Chinese (Traditional)"
+  },
+  {
+   "tag": "bn",
+   "label": "Bengali"
+  },
+  {
+   "tag": "ur",
+   "label": "Urdu"
+  },
+  {
+   "tag": "fa",
+   "label": "Persian"
+  },
+  {
+   "tag": "ta",
+   "label": "Tamil"
+  },
+  {
+   "tag": "te",
+   "label": "Telugu"
+  },
+  {
+   "tag": "mr",
+   "label": "Marathi"
+  },
+  {
+   "tag": "gu",
+   "label": "Gujarati"
+  },
+  {
+   "tag": "kn",
+   "label": "Kannada"
+  },
+  {
+   "tag": "ml",
+   "label": "Malayalam"
+  },
+  {
+   "tag": "pa-Guru",
+   "label": "Punjabi (Gurmukhi)",
+   "youtube": "pa"
+  },
+  {
+   "tag": "uk",
+   "label": "Ukrainian"
+  },
+  {
+   "tag": "ro",
+   "label": "Romanian"
+  },
+  {
+   "tag": "el",
+   "label": "Greek"
+  },
+  {
+   "tag": "cs",
+   "label": "Czech"
+  },
+  {
+   "tag": "hu",
+   "label": "Hungarian"
+  },
+  {
+   "tag": "sv",
+   "label": "Swedish"
+  },
+  {
+   "tag": "da",
+   "label": "Danish"
+  },
+  {
+   "tag": "fi",
+   "label": "Finnish"
+  },
+  {
+   "tag": "nb",
+   "label": "Norwegian (Bokmal)"
+  },
+  {
+   "tag": "he",
+   "label": "Hebrew"
+  },
+  {
+   "tag": "ms",
+   "label": "Malay"
+  },
+  {
+   "tag": "fil",
+   "label": "Filipino"
+  },
+  {
+   "tag": "sw",
+   "label": "Swahili"
+  },
+  {
+   "tag": "am",
+   "label": "Amharic"
+  },
+  {
+   "tag": "bg",
+   "label": "Bulgarian"
+  },
+  {
+   "tag": "sr-Latn",
+   "label": "Serbian (Latin)"
+  },
+  {
+   "tag": "hr",
+   "label": "Croatian"
+  },
+  {
+   "tag": "sk",
+   "label": "Slovak"
+  },
+  {
+   "tag": "sl",
+   "label": "Slovenian"
+  },
+  {
+   "tag": "lt",
+   "label": "Lithuanian"
+  },
+  {
+   "tag": "lv",
+   "label": "Latvian"
+  },
+  {
+   "tag": "et",
+   "label": "Estonian"
+  }
+ ]
+}

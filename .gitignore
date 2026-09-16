@@ -1,0 +1,29 @@
+node_modules/
+.DS_Store
+
+# Your media and your output. This repository is a tool, not a library of
+# somebody else's videos: a 600 MB MP4 committed by accident is in the history
+# forever. Put your video anywhere you like; the tool finds it.
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.wav
+/media/
+/subtitles/
+/.work/
+
+# Real keys for .env.example. MISTRAL_API_KEY and AIGLOT_API_KEY both spend
+# money.
+.env
+.env.*
+!.env.example
+
+# Editor tooling. `.claude/skills/` holds symlinks to `skills/`, which is
+# committed.
+.vscode/
+.idea/
+.claude/*
+!.claude/skills/

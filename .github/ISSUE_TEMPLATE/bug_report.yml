@@ -1,0 +1,31 @@
+name: Bug report
+description: Something does not work the way this repository says it does.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command you ran, what you expected, and what you got.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: cue
+    attributes:
+      label: The cue, if this is a subtitle problem
+      description: Block number, timecode line and text. Paste it rather than describing it.
+      render: text
+  - type: input
+    id: versions
+    attributes:
+      label: Commit, Node version, ffmpeg version
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before filing
+      options:
+        - label: My paste contains no API key.
+          required: true

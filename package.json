@@ -1,0 +1,18 @@
+{
+  "name": "video-to-subtitles",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Turn a video file into subtitle files in as many languages as you want: extract audio, transcribe with timestamps, build a valid SRT, translate it at scale.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "bin": {
+    "subs": "./bin/subs.mjs"
+  },
+  "scripts": {
+    "subs": "node bin/subs.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
