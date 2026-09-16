@@ -1,10 +1,16 @@
-# video-to-subtitles
+# multilingual-subtitles
 
-A video file on your laptop. Subtitle files in as many languages as you want.
+**Subtitles in twenty languages, from one video file, in one command.**
 
-This is a local command-line tool. It extracts the audio, transcribes it with
-timestamps, builds a valid SRT, and translates that SRT into every language you
-ask for. Nothing is uploaded except the audio and the subtitle text.
+Transcribing a video is the easy half and a dozen tools do it. This one is
+built for the other half: getting that subtitle file into every language your
+audience reads, without retyping a single timecode and without paying
+generation prices twenty times over.
+
+It is a local command-line tool. It extracts the audio, transcribes it with
+word-level timestamps, builds a valid SRT, and translates that SRT into every
+language you ask for. Nothing leaves your machine except the audio and the
+subtitle text.
 
 ```bash
 npm run subs -- run ~/Downloads/clip.mp4 --to fr,de,ja
@@ -44,8 +50,8 @@ also skip transcription and translate an SRT you already have.
 ## Quick start
 
 ```bash
-git clone https://github.com/DuvInc/video-to-subtitles
-cd video-to-subtitles
+git clone https://github.com/DuvInc/multilingual-subtitles
+cd multilingual-subtitles
 npm install
 cp .env.example .env        # then put your Mistral key in it
 
@@ -151,10 +157,12 @@ the cheap one succeeded. `run` chains them when you want that.
 
 ## What it is for
 
-**YouTube subtitle coverage.** YouTube shows a subtitle track in the viewer's
-language when you upload one. `languages.json` holds 50 languages ordered by
-YouTube audience, so `--top 20` is the slice worth having rather than an
-arbitrary prefix.
+**YouTube subtitle coverage, which is the reason this exists.** YouTube serves
+a subtitle track in the viewer's language when you upload one, and most
+channels upload one language because producing twenty is a day of work.
+`languages.json` holds 50 languages ordered by YouTube audience, so `--top 20`
+is the slice worth having rather than an arbitrary prefix. Twenty languages of
+a 20 minute talk is one command and about 20,000 credits.
 
 **A video you did not caption.** A recorded talk, a demo, a customer call. One
 command gives you a transcript you can read and a subtitle file you can upload.

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * video-to-subtitles
+ * multilingual-subtitles
  *
  *   subs find                       what video files it can see
  *   subs transcribe [video]         video -> <name>.<lang>.srt

@@ -13,6 +13,12 @@ of sync halfway through.
 A local command-line tool. It turns one video file into subtitle files in many
 languages.
 
+The multilingual half is the point. Transcription is table stakes and many
+tools do it; what this exists for is getting one subtitle file into twenty
+languages with the timecodes intact. Keep that framing in the documentation: a
+change that describes this as a transcription tool has buried the reason it
+exists.
+
 ```text
 video ──▶ ffmpeg ──▶ audio ──▶ Mistral ──▶ timed words ──▶ cues ──▶ .srt ──▶ AI Glot ──▶ .srt per language
 ```
