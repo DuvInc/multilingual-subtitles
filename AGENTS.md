@@ -38,7 +38,7 @@ installed.
 | `lib/check.mjs` | validate one file, and compare a translation against its source |
 | `lib/translate.mjs` | **the only file that talks to AI Glot**. One batch per language |
 | `languages.json` | 50 languages, ordered by YouTube audience |
-| `skills/subtitles/SKILL.md` | the procedure, as a skill. Symlinked from `.claude/skills/` |
+| `skills/subtitles/SKILL.md` | the procedure, as a skill. Copy the folder into your agent's skills directory to use it |
 
 ## Commands
 
