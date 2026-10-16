@@ -1,5 +1,7 @@
 # multilingual-subtitles
 
+![multilingual-subtitles: a dithered banner with the project name and its one-line summary](docs/hero.png)
+
 **Subtitles in twenty languages, from one video file, in one command.**
 
 Transcribing a video is the easy half and a dozen tools do it. This one is
