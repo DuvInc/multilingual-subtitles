@@ -119,7 +119,7 @@ into a command line where the shell records history.
 
 | | CLI (default) | API (`AIGLOT_TRANSPORT=api`) |
 | --- | --- | --- |
-| Install | `npm i -g @ai-glot/cli` | nothing |
+| Install | `npm i -g @ai-glot/cli` (0.4.0 or later) | nothing |
 | Credentials | `aiglot auth login`, or `AIGLOT_API_KEY` | `AIGLOT_API_KEY` |
 | Retries and backoff | handled | yours to write |
 | Right for | a laptop, most CI | an image you do not control |
